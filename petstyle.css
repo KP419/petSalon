@@ -1,0 +1,72 @@
+/*Global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Utiliteis*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+}
+img{
+    max-width: 100%;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+/*header*/
+
+.site-init{
+    background-color: #EBF8B8;
+    height: 15rem;
+}
+/*main*/
+
+/*welcome*/
+.welcome-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome-img{
+    display: flex;
+    
+}
+/*services*/
+
+/*footer*/
+.site-footer{
+    background-color:#7c6c77;
+    height: 10rem;
+    text-decoration: underline;
+    color:#FFE787;
+}
+.btn{
+    background-color:#FFE787;
+}
+
+/* Style The Dropdown Button */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #9faa9f;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*color*/
+/* #FFE787 */
+/* D1D0A3 */
+/* AAA694 */
+/* 7C6C77 */
