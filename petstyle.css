@@ -65,6 +65,19 @@ a{
     cursor: pointer;
 }
 
+/*petcards*/
+.petCard{
+    background-color:#D1D0A3;
+    border-radius: 5px;
+    padding: 1rem;
+}
+#pets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
 /*color*/
 /* #FFE787 */
 /* D1D0A3 */
